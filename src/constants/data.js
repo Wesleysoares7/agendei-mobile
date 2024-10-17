@@ -1,0 +1,198 @@
+export const doctors = [
+  {
+    id_doctor: 1,
+    name: "Dra. Carmem",
+    specialty: "Ginecologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 2,
+    name: "Dr. João Silva",
+    specialty: "Cardiologia",
+    icon: "M",
+  },
+  {
+    id_doctor: 3,
+    name: "Dra. Laura Mendes",
+    specialty: "Dermatologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 4,
+    name: "Dr. Pedro Alencar",
+    specialty: "Neurologia",
+    icon: "M",
+  },
+  {
+    id_doctor: 5,
+    name: "Dra. Sofia Santos",
+    specialty: "Pediatria",
+    icon: "F",
+  },
+  {
+    id_doctor: 6,
+    name: "Dr. Rafael Costa",
+    specialty: "Ortopedia",
+    icon: "M",
+  },
+  {
+    id_doctor: 7,
+    name: "Dra. Fernanda Lima",
+    specialty: "Oftalmologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 8,
+    name: "Dr. Marcelo Tavares",
+    specialty: "Psiquiatria",
+    icon: "M",
+  },
+  {
+    id_doctor: 9,
+    name: "Dra. Beatriz Rocha",
+    specialty: "Endocrinologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 10,
+    name: "Dr. Leonardo Almeida",
+    specialty: "Urologia",
+    icon: "M",
+  },
+];
+
+export const appointments = [
+  {
+    id_appointments: 1,
+    service: "Consulta",
+    doctor: "Dra. Carmem",
+    specialty: "Cirurgia Plástica",
+    booking_data: "2024-10-25",
+    booking_hour: "08:30",
+  },
+  {
+    id_appointments: 2,
+    service: "Consulta",
+    doctor: "Dr. João Silva",
+    specialty: "Cardiologia",
+    booking_data: "2024-11-10",
+    booking_hour: "10:00",
+  },
+  {
+    id_appointments: 3,
+    service: "Exame de pele",
+    doctor: "Dra. Laura Mendes",
+    specialty: "Dermatologia",
+    booking_data: "2024-10-30",
+    booking_hour: "14:00",
+  },
+  {
+    id_appointments: 4,
+    service: "Consulta Neurológica",
+    doctor: "Dr. Pedro Alencar",
+    specialty: "Neurologia",
+    booking_data: "2024-11-15",
+    booking_hour: "09:00",
+  },
+  {
+    id_appointments: 5,
+    service: "Consulta Pediátrica",
+    doctor: "Dra. Sofia Santos",
+    specialty: "Pediatria",
+    booking_data: "2024-10-28",
+    booking_hour: "11:30",
+  },
+  {
+    id_appointments: 6,
+    service: "Consulta Ortopédica",
+    doctor: "Dr. Rafael Costa",
+    specialty: "Ortopedia",
+    booking_data: "2024-12-01",
+    booking_hour: "16:00",
+  },
+  {
+    id_appointments: 7,
+    service: "Exame de Visão",
+    doctor: "Dra. Fernanda Lima",
+    specialty: "Oftalmologia",
+    booking_data: "2024-11-05",
+    booking_hour: "13:00",
+  },
+  {
+    id_appointments: 8,
+    service: "Consulta Psiquiátrica",
+    doctor: "Dr. Marcelo Tavares",
+    specialty: "Psiquiatria",
+    booking_data: "2024-12-15",
+    booking_hour: "10:30",
+  },
+  {
+    id_appointments: 9,
+    service: "Consulta Endocrinológica",
+    doctor: "Dra. Beatriz Rocha",
+    specialty: "Endocrinologia",
+    booking_data: "2024-11-25",
+    booking_hour: "15:00",
+  },
+  {
+    id_appointments: 10,
+    service: "Consulta Urológica",
+    doctor: "Dr. Leonardo Almeida",
+    specialty: "Urologia",
+    booking_data: "2024-12-02",
+    booking_hour: "08:00",
+  },
+];
+
+export const doctors_services = [
+  {
+    id_service: 1,
+    description: "Consulta Médica",
+    price: 500,
+  },
+  {
+    id_service: 2,
+    description: "Exame de Sangue",
+    price: 200,
+  },
+  {
+    id_service: 3,
+    description: "Consulta Cardiológica",
+    price: 600,
+  },
+  {
+    id_service: 4,
+    description: "Consulta Dermatológica",
+    price: 400,
+  },
+  {
+    id_service: 5,
+    description: "Consulta Neurológica",
+    price: 700,
+  },
+  {
+    id_service: 6,
+    description: "Consulta Pediátrica",
+    price: 300,
+  },
+  {
+    id_service: 7,
+    description: "Consulta Ortopédica",
+    price: 550,
+  },
+  {
+    id_service: 8,
+    description: "Exame de Visão",
+    price: 250,
+  },
+  {
+    id_service: 9,
+    description: "Consulta Psiquiátrica",
+    price: 650,
+  },
+  {
+    id_service: 10,
+    description: "Consulta Endocrinológica",
+    price: 600,
+  },
+];
