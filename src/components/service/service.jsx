@@ -16,7 +16,10 @@ function Service(props) {
       </View>
 
       <View style={styles.containerButton}>
-        <Button text="Agendar" />
+        <Button
+          text="Agendar"
+          onPress={() => props.onPress(props.id_service)}
+        />
       </View>
     </View>
   );
